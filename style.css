@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* || RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* || VARIABLES */
+:root {
+  /* COLORS */
+  --BG-COLOR: #fefefe;
+  --HEADER-COLOR: #fff9f1;
+  --PRI-TEXT-COLOR: #000000;
+  --SEC-TEXT-COLOR: #222;
+  --BORDER-COLOR: #ccc;
+}
+
+/* COMMON STYLES */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
